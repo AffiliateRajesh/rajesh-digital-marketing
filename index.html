@@ -271,6 +271,7 @@ html {
 }
 
 @media (max-width: 600px) {
+  
     header h1 {
         font-size: 28px;
     }
@@ -288,7 +289,38 @@ html {
         padding: 8px;
     }
 }
-</style>
+</                    
+                                                                                                                            
+ /* Affiliate platform cards */
+
+.platform-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.platform-card {
+    background: linear-gradient(145deg, #ffffff, #eef6fc);
+    padding: 25px 15px;
+    border-radius: 14px;
+    text-align: center;
+    border: 1px solid #dceaf5;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+    transition: transform 0.3s ease;
+}
+
+.platform-card:hover {
+    transform: translateY(-6px);
+}
+
+.platform-card h3 {
+    color: #075985;
+    font-size: 20px;
+    margin: 0;
+}  
+  
+  style>
     
 </head>
 
@@ -379,7 +411,11 @@ html {
 
   <section id="services">
 
-    <h2>My Digital Services & Opportunities</h2>
+    <h2>My Digital Services & Opportunities</h2>                                                                                
+  
+  
+  
+  
 
     <div class="services-grid">
 
@@ -406,7 +442,8 @@ html {
 
         <h2>Affiliate Marketing</h2>
 
-        <p>
+        <p>                                                                                                                                                                                    
+  
             I have been involved in affiliate marketing
             for approximately two years and continue to
             develop my knowledge and marketing skills.
@@ -414,12 +451,25 @@ html {
 
         <h3>My Affiliate Marketing Platforms</h3>
 
-        <ul>
-            <li>WarriorPlus</li>
-            <li>ClickBank</li>
-            <li>JVZoo</li>
-            <li>Digistore24</li>
-        </ul>
+  <div class="platform-grid">
+
+    <div class="platform-card">
+        <h3>WarriorPlus</h3>
+    </div>
+
+    <div class="platform-card">
+        <h3>ClickBank</h3>
+    </div>
+
+    <div class="platform-card">
+        <h3>JVZoo</h3>
+    </div>
+
+    <div class="platform-card">
+        <h3>Digistore24</h3>
+    </div>
+
+</div>
 
     </section>
 
