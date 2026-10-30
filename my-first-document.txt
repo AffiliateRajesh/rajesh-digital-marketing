@@ -1,0 +1,10 @@
+Hello GitHub!
+
+My name is Rajesh.
+
+I am learning GitHub from scratch.
+
+My goal is to learn AI tools, affiliate marketing,
+website development and e-commerce.
+
+This is my first file created on GitHub.
