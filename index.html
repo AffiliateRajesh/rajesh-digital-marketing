@@ -127,6 +127,41 @@
             display: block;
             margin: 20px auto;
         }
+
+/* Professional service cards */
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.service-card {
+    background: linear-gradient(145deg, #ffffff, #eef6fc);
+    padding: 30px 22px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid #dceaf5;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-7px);
+}
+
+.service-card h3 {
+    color: #075985;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    color: #475569;
+    line-height: 1.7;
+}
+      
     </style>
     
 <style>
@@ -341,6 +376,31 @@ html {
         </p>
 
     </section>
+
+  <section id="services">
+
+    <h2>My Digital Services & Opportunities</h2>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <h3>Affiliate Marketing</h3>
+            <p>Exploring affiliate marketing opportunities through platforms like ClickBank, WarriorPlus, JVZoo and Digistore24.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Digital Marketing</h3>
+            <p>Developing skills in Meta Ads, audience targeting and AI-powered marketing using ChatGPT and Claude.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>E-commerce</h3>
+            <p>Exploring online business opportunities through Amazon and Shopify.</p>
+        </div>
+
+    </div>
+
+</section>
 
     <section id="affiliate">
 
