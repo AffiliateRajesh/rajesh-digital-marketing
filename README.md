@@ -26,3 +26,5 @@ to improve my digital marketing and technical skills.
 
 To build digital businesses using AI,
 digital marketing and e-commerce technologies.
+
+I am learning GitHub step by step with ChatGPT.
